@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WHY BUTTON</title>
+		<script>
+			document.addEventListener("DOMContentLoaded", () => {
+				document.querySelector("#button").onclick = () => {
+					alert('WHY?');
+				}
+				
+			});
+		</script>
+		<style>
+			#button {
+				color: white;
+				font-size: 25px;
+				background-color: red;
+				height: 50px;
+				margin-top: 10px;
+				width: 50%;
+				text-align: center;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			#container {
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<button id="button">CLICK HERE</button>
+		</div>
+	</body>
+</html>
